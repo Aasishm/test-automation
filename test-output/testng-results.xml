@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T20:47:59 IST" name="Command line suite" finished-at="2024-10-01T20:48:47 IST" duration-ms="48738">
+  <suite started-at="2024-10-01T22:17:41 IST" name="Command line suite" finished-at="2024-10-01T22:18:25 IST" duration-ms="44087">
     <groups>
     </groups>
-    <test started-at="2024-10-01T20:47:59 IST" name="Command line test" finished-at="2024-10-01T20:48:47 IST" duration-ms="48738">
+    <test started-at="2024-10-01T22:17:41 IST" name="Command line test" finished-at="2024-10-01T22:18:25 IST" duration-ms="44087">
       <class name="test.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:47:46 IST" name="setup" finished-at="2024-10-01T20:47:59 IST" duration-ms="12820" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:25 IST" name="setup" finished-at="2024-10-01T22:17:41 IST" duration-ms="16306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginPageNavigation()[pri:1, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:47:59 IST" name="verifyLoginPageNavigation" description="This test clicks on Login button and navigates to Login Page" finished-at="2024-10-01T20:48:03 IST" duration-ms="4530" status="PASS">
+        <test-method signature="verifyLoginPageNavigation()[pri:1, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:41 IST" name="verifyLoginPageNavigation" description="This test clicks on Login button and navigates to Login Page" finished-at="2024-10-01T22:17:49 IST" duration-ms="7993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageNavigation -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:03 IST" name="getResult" finished-at="2024-10-01T20:48:04 IST" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:49 IST" name="getResult" finished-at="2024-10-01T22:17:50 IST" duration-ms="416" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyLoginPageTitle()[pri:2, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="verifyLoginPageTitle" description="This test checks if the title of the login page says &#039;Login&#039;." finished-at="2024-10-01T20:48:04 IST" duration-ms="11" status="PASS">
+        <test-method signature="verifyLoginPageTitle()[pri:2, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:50 IST" name="verifyLoginPageTitle" description="This test checks if the title of the login page says &#039;Login&#039;." finished-at="2024-10-01T22:17:50 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="getResult" finished-at="2024-10-01T20:48:04 IST" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:50 IST" name="getResult" finished-at="2024-10-01T22:17:50 IST" duration-ms="241" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyEmailFieldIsPresent()[pri:3, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="verifyEmailFieldIsPresent" description="Check if email input field is present" finished-at="2024-10-01T20:48:04 IST" duration-ms="50" status="PASS">
+        <test-method signature="verifyEmailFieldIsPresent()[pri:3, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:50 IST" name="verifyEmailFieldIsPresent" description="Check if email input field is present" finished-at="2024-10-01T22:17:50 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmailFieldIsPresent -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="getResult" finished-at="2024-10-01T20:48:04 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:50 IST" name="getResult" finished-at="2024-10-01T22:17:50 IST" duration-ms="242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,11 +56,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyPasswordFieldIsPresent()[pri:4, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="verifyPasswordFieldIsPresent" description="Check if password input fields is present" finished-at="2024-10-01T20:48:04 IST" duration-ms="43" status="PASS">
+        <test-method signature="verifyPasswordFieldIsPresent()[pri:4, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:50 IST" name="verifyPasswordFieldIsPresent" description="Check if password input fields is present" finished-at="2024-10-01T22:17:50 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPasswordFieldIsPresent -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="getResult" finished-at="2024-10-01T20:48:04 IST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:50 IST" name="getResult" finished-at="2024-10-01T22:17:50 IST" duration-ms="234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="switchBackToMainTab()[pri:5, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="switchBackToMainTab" description="Switch back to main demo tab and verify the same" finished-at="2024-10-01T20:48:04 IST" duration-ms="36" status="PASS">
+        <test-method signature="switchBackToMainTab()[pri:5, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:50 IST" name="switchBackToMainTab" description="Switch back to main demo tab and verify the same" finished-at="2024-10-01T22:17:51 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchBackToMainTab -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="getResult" finished-at="2024-10-01T20:48:04 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:51 IST" name="getResult" finished-at="2024-10-01T22:17:51 IST" duration-ms="376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,11 +86,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="getAllLinks()[pri:6, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:04 IST" name="getAllLinks" description="Get list of links in the webpage" finished-at="2024-10-01T20:48:05 IST" duration-ms="43" status="PASS">
+        <test-method signature="getAllLinks()[pri:6, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:51 IST" name="getAllLinks" description="Get list of links in the webpage" finished-at="2024-10-01T22:17:51 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllLinks -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:05 IST" name="getResult" finished-at="2024-10-01T20:48:05 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:51 IST" name="getResult" finished-at="2024-10-01T22:17:51 IST" duration-ms="314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,11 +101,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="verifyAPIStatusCodes()[pri:7, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:05 IST" name="verifyAPIStatusCodes" description="Make API requests to the links and verify status codes" finished-at="2024-10-01T20:48:47 IST" duration-ms="42479" status="PASS">
+        <test-method signature="verifyAPIStatusCodes()[pri:7, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:17:51 IST" name="verifyAPIStatusCodes" description="Make API requests to the links and verify status codes" finished-at="2024-10-01T22:18:25 IST" duration-ms="33692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAPIStatusCodes -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:47 IST" name="getResult" finished-at="2024-10-01T20:48:47 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:18:25 IST" name="getResult" finished-at="2024-10-01T22:18:25 IST" duration-ms="362" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T20:48:47 IST" name="tearDown" finished-at="2024-10-01T20:48:48 IST" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AppTest@2fd66ad3]" started-at="2024-10-01T22:18:25 IST" name="tearDown" finished-at="2024-10-01T22:18:25 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

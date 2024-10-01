@@ -5,7 +5,7 @@ This program uses Java SE 21 and Selenium 4.25.0
 Dependencies are provided in the libs folder.
 
 First, compile using the Java command:
-	Linux - javac -cp "libs/*:src/main" -d bin src/main/**/*.java src/test/**/*.java
+	Linux - javac -cp "libs/*:src/main" -d bin @sources.txt
 	Windows - javac -cp "libs/*;src/main" -d bin @sources.txt
 
 Now run the following command to run all the tests in the suite:
@@ -19,3 +19,8 @@ Alternatively, directly run the AppTest.java file as Java Application under src/
 
 After running the tests, an HTML report will be generated inside the folder "test-output"
 The file name for the report is AutomationTestReport.html
+
+NOTE
+=========
+By default, the test runs on Chrome in headless mode. If you are using Chrome 129 version, there may be an issue with a white screen being open when running the test in Windows.
+
