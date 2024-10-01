@@ -2,6 +2,9 @@ package main.pages;
 
 import main.framework.Framework;
 
+/*
+ * Login Page methods
+ */
 public class LoginPage {
 
 	private Framework framework = Framework.getInstance();

@@ -13,6 +13,10 @@ import org.openqa.selenium.WebElement;
 
 import main.config.Config;
 
+
+/*
+ * Home Page methods
+ */
 public class HomePage {
 	
 	private Framework framework = Framework.getInstance();
@@ -61,6 +65,9 @@ public class HomePage {
 		}
 	}
 	
+	/*
+	 * Switch back to the initial Window
+	 */
 	public boolean switchBackHome() {
 		try {
 			System.out.println("Switching back to home page");

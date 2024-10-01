@@ -7,17 +7,19 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.*;
 public class BrowserFactory {
 	
+	/*
+	 * Configuring WebDriver for Mobile/Desktop
+	 */
 	public static WebDriver getWebDriver(String mode) {
 		WebDriver driver = null;
-		Map<String, String> mobileEmulation = new HashMap<>();
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.addArguments("headless");
 		if (mode.equalsIgnoreCase("mobile")) {
+			Map<String, String> mobileEmulation = new HashMap<>();
 			mobileEmulation.put("deviceName", "iPhone X");
-			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-			driver = new ChromeDriver(chromeOptions);
-		} else {
-			driver = new ChromeDriver();
 		}
+		driver = new ChromeDriver(chromeOptions);
 		driver.manage().window().maximize();
 		return driver;
 

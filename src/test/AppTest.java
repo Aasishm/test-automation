@@ -33,12 +33,12 @@ public class AppTest {
 	@BeforeSuite
 	public void setup() {
 		System.out.println("Enter mode for testing (mobile/desktop). Default is Desktop : ");
-		String mode = sc.nextLine().equals("mobile") ? "mobile" : "desktop"; 
+		String mode = sc.nextLine().equalsIgnoreCase("mobile") ? "mobile" : "desktop"; 
 		System.out.println("Selected Mode : " + mode);
 		
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(REPORT_PATH);
 
-        htmlReporter.config().setTheme(Theme.STANDARD);
+        htmlReporter.config().setTheme(Theme.DARK);
         htmlReporter.config().setDocumentTitle("Automation Test Report");
         htmlReporter.config().setReportName("App Test Report");
 
@@ -148,7 +148,7 @@ public class AppTest {
 	}
 
 	public static void main(String[] args) {
-        // Setup your TestNG test runner
+        // Setting up TestNG Test Runner
         org.testng.TestNG testng = new org.testng.TestNG();
         testng.setTestClasses(new Class[] { AppTest.class });
         testng.run();

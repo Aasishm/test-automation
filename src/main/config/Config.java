@@ -1,5 +1,9 @@
 package main.config;
 
+
+/*
+ * Configuration file to store XPaths and other static configurations
+ */
 public class Config {
 	
 	public static String phpTravelsDemoUrl = "https://www.phptravels.com/demo";
