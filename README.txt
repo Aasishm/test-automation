@@ -6,7 +6,7 @@ Dependencies are provided in the libs folder.
 
 First, compile using the Java command:
 	Linux - javac -cp "libs/*:src/main" -d bin src/main/**/*.java src/test/**/*.java
-	Windows - javac -cp "libs/*;src/main" -d bin src\main\**\*.java src\test\**\*.java
+	Windows - javac -cp "libs/*;src/main" -d bin @sources.txt
 
 Now run the following command to run all the tests in the suite:
 	Linux - java -cp "libs/*:bin" test.AppTest     

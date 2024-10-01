@@ -1,4 +1,5 @@
 src/main/pages/HomePage.java
+src/main/pages/LoginPage.java
 src/main/framework/BrowserFactory.java
 src/main/framework/Framework.java
 src/main/config/Config.java
