@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite" verbose="1">
+    <test name="MyTest">
+        <classes>
+            <class name="src.test.AppTest"/>  <!-- Use the fully qualified class name -->
+        </classes>
+    </test>
+</suite>
