@@ -14,6 +14,7 @@ public class BrowserFactory {
 		WebDriver driver = null;
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("headless");
+		//chromeOptions.addArguments("--window-position=-10000,-10000");
 		if (mode.equalsIgnoreCase("mobile")) {
 			Map<String, String> mobileEmulation = new HashMap<>();
 			mobileEmulation.put("deviceName", "iPhone X");

@@ -23,4 +23,6 @@ The file name for the report is AutomationTestReport.html
 NOTE
 =========
 By default, the test runs on Chrome in headless mode. If you are using Chrome 129 version, there may be an issue with a white screen being open when running the test in Windows.
-
+In this case, uncomment the below line:
+	 chromeOptions.addArguments("--window-position=-10000,-10000");
+in src/main/framework/BrowserFactory.java file
