@@ -33,7 +33,7 @@ public class AppTest {
 	@BeforeSuite
 	public void setup() {
 		System.out.println("Enter mode for testing (mobile/desktop). Default is Desktop : ");
-		String mode = sc.nextLine() == "mobile" ? "Mobile" : "Desktop";
+		String mode = sc.nextLine().equals("mobile") ? "mobile" : "desktop"; 
 		System.out.println("Selected Mode : " + mode);
 		
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(REPORT_PATH);
@@ -49,7 +49,7 @@ public class AppTest {
         // Add some system information to the report
         extent.setSystemInfo("Mode", mode);
 		
-		this.homePage.setupDriver(mode.toLowerCase());
+		this.homePage.setupDriver(mode);
 		this.homePage.navigateToHome();
 	}
 	
