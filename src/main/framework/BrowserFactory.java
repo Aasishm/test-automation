@@ -14,6 +14,9 @@ public class BrowserFactory {
 		WebDriver driver = null;
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("headless");
+		chromeOptions.addArguments("--no-sandbox");  // Bypass OS security model in Docker
+	    chromeOptions.addArguments("--disable-dev-shm-usage"); // Prevents crashes in resource-constrained environments
+	    chromeOptions.addArguments("--disable-gpu"); 
 		//chromeOptions.addArguments("--window-position=-10000,-10000");
 		if (mode.equalsIgnoreCase("mobile")) {
 			Map<String, String> mobileEmulation = new HashMap<>();

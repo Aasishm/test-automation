@@ -67,6 +67,7 @@ public class AppTest {
 		String pageTitle = "";
 		try {
 			pageTitle = this.loginPage.getPageTitle();
+			test.info("The Login page title is : '" + pageTitle + "'");
 		} catch (Exception e) {
 			test.fail(e.getMessage());
 		}
@@ -103,6 +104,7 @@ public class AppTest {
 		test = extent.createTest("Webpage Links", "Get links in webpage");
 		this.links = this.homePage.getAllLinks();
 		Assert.assertTrue(links.size() != 0);
+		test.info("Received " + this.links.size() + " links from Home page");
 		test.pass("Got the list of links in webpage");
 	}
 	
